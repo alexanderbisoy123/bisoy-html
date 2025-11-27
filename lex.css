@@ -1,0 +1,117 @@
+/* GENERAL */
+body {
+    margin: 0;
+    font-family: "Poppins", Arial, sans-serif;
+    background: #ffe4f1;
+    color: #948d90;
+}
+
+h2, h1 {
+    color: #f1e8ed;
+}
+
+/* CENTERED BOX */
+.login-section, 
+.register-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background: #afadb1;
+    padding: 30px;
+    border-radius: 15px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 0 15px #ffb3d9;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    border: 2px solid #ff99cc;
+    border-radius: 10px;
+    margin: 7px 0;
+    outline: none;
+    font-size: 15px;
+    background: #fff8fc;
+    color: #b30059;
+}
+
+input:focus {
+    border-color: #ff4da6;
+}
+
+/* BUTTON */
+.btn {
+    width: 95%;
+    padding: 12px;
+    background: #e70a15;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #6ae99f;
+}
+
+/* LINKS */
+a {
+    color: #ececec;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ERROR/INFO MESSAGE */
+.msg {
+    margin-top: 10px;
+    color: #a75050;
+    font-weight: bold;
+}
+
+/* PORTFOLIO */
+.portfolio {
+    padding: 30px;
+}
+
+/* Other styles remain the same */
+
+/* Image resizing */
+.portfolio-image {
+    width: 200px; /* Fixed width */
+    height: 200px; /* Fixed height */
+    object-fit: cover; /* Ensures the image fills the box while maintaining aspect ratio */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+    margin: 20px auto; /* Centers the image horizontally */
+}
+
+
+.portfolio-card {
+    max-width: 700px;
+    margin: auto;
+    background: #fdfdfd;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #e94a52;
+}
+
+.logout {
+    background: #4dff56;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.logout:hover {
+    background: #e60073;}
